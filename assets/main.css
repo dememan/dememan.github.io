@@ -1,0 +1,16 @@
+.left {
+    width: 25%;
+    height: 100%;
+    background-color: cornsilk;
+
+}
+.right {
+    width: 75%;
+    height: 100%; 
+}
+.profilePic {
+ width: 80px;
+ height: 80px;
+    border:1px darkgreen darkgrey;
+    border-radius: 5px;
+}
