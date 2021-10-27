@@ -29,6 +29,8 @@ ul>li {
     font-weight: bolder;
     letter-spacing: 0.25em;
     display: inline-block;
+    margin-bottom:10px;
+    margin-top: 10px;
 }
 
 .content .heading {
@@ -52,4 +54,7 @@ blockquote {
 
 .small {
     line-height: 0.7;
+}
+.links {
+    list-style-type:none;
 }
