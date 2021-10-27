@@ -52,10 +52,6 @@ blockquote {
     float: right;
     text-align: right;
 }
-
-.small {
-    line-height: 0.7;
-}
 .links {
     list-style-type:none;
     line-height: 0.78;
