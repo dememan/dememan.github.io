@@ -1,0 +1,133 @@
+body {
+    background-image: url("background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#top-banner {
+    background: url("bannerbg.png") repeat-x;
+    height: 50px;
+    text-align: center;
+}
+
+#overall-content #left-section {
+    width: 550px;
+    background-image: url("background.png");
+    overflow: auto;
+    min-height: 1100px;
+}
+
+#overall-content #left-section #left-middle {
+    width: 47%;
+    margin: 2%;
+}
+
+#overall-content #left-section .review {
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E8DC9B;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#overall-content #left-section .personal-info {
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#overall-content #left-section .personal-info img {
+    margin-right: 5px;
+    float: left;
+}
+
+#overall-content #left-section .review img {
+    padding-right: 5px;
+    float: left;
+}
+
+#overall-content #left-section #left-middle {
+    width: 47%;
+    float: right;
+    margin: 2%;
+}
+
+#overall-content #left-section #right-middle {
+    width: 47%;
+    margin: 2%;
+}
+
+#overall-content #left-section #left-top {
+    height: 83px;
+    background: url("rbg.png") repeat-x;
+}
+
+#overall-content #left-section #left-top span {
+    font-size: 48pt;
+    color: red;
+}
+
+#overall-content #left-section #left-top #rotten-logo {
+    float: left;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+}
+
+#overall-content {
+    margin: auto;
+    width: 800px;
+    border: 4px gray solid;
+    border-radius: 20px;
+    overflow: auto;
+    background-color: #A2B964;
+}
+
+#overall-content #right-section {
+    float: right;
+    width: 250px;
+    margin-right: 0px;
+    height: 100%;
+}
+
+#overall-content #right-section li {
+    list-style: none;
+}
+
+#overall-content #right-section dt {
+    font-weight: bold;
+}
+
+#overall-content #right-section dl {
+    width: 200;
+    padding: 10pt;
+    font: 8pt Arial, sans-serif;
+}
+
+#overall-content #right-section dd {
+    margin-bottom: 20px;
+}
+
+.validator {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 50%;
+}
+
+.page {
+    text-align: center;
+    padding: 5px;
+}
+
+q {
+    vertical-align: text-top;
+}

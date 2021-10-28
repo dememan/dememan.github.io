@@ -1,6 +1,29 @@
 .profilePic {
- width: 150px;
- height: 150px;
-    border:1px darkgreen darkgrey;
-    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px; 
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px;
+}
+
+.header {
+    width: 100%;
+    border-image-repeat: unset;
+    background-image: url(header.jfif);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.footer {
+    width: 100%;
+position:absolute;
+bottom: 0;
+    margin-bottom: 2px;
+}
+.validators {
+    float: right;
 }
