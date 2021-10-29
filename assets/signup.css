@@ -1,0 +1,54 @@
+header {
+    margin-bottom: 30px;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    background-color: #e0e1ff;
+    border-radius: 10px;
+    overflow: auto;
+    min-width: 50%;
+    width: max-content;
+}
+
+fieldset legend {
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+fieldset .row label {
+    margin-left: 5px;
+    font-weight: bold;
+    width: 150px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.action {
+    margin-top: 20px;
+    
+}
+
+.danger {
+    background-color: #faabae;
+    font-weight: bold;
+    line-height: 2.3em;
+}
+
+.back img {
+    float: left;
+    padding-right: 2px;
+}
+
+footer {
+    padding-top: 20px;
+}
