@@ -1,7 +1,7 @@
 .profilePic {
     width: 150px;
     height: 150px;
-    border-radius: 80px; 
+    border-radius: 80px;
 }
 
 .profile {
@@ -18,12 +18,71 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 .footer {
     width: 100%;
-position:absolute;
-bottom: 0;
+    position: absolute;
+    bottom: 0;
     margin-bottom: 2px;
 }
+
 .validators {
     float: right;
+}
+
+
+.grade fieldset {
+    border-radius: 10px;
+    border-color: #005cc8;
+    color: #005cc8;
+}
+
+.row {
+    margin: 10px;
+}
+
+.row>label {
+    float: left;
+    width: 100%;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #123e70;
+}
+
+input[type="checkbox"] {
+    margin: 20px 0px;
+}
+
+input[type="text"] {
+    font-weight: bold;
+    color: #005cc8;
+}
+
+.primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.secondary {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    user-select: none;
 }
