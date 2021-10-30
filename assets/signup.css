@@ -35,7 +35,7 @@ fieldset .row label {
 
 .action {
     margin-top: 20px;
-    
+
 }
 
 .danger {
@@ -44,11 +44,13 @@ fieldset .row label {
     line-height: 2.3em;
 }
 
-.back img {
-    float: left;
-    padding-right: 2px;
-}
-
 footer {
     padding-top: 20px;
+    float: left;
+}
+
+.validators {
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 1px;
 }
