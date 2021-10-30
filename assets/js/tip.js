@@ -4,5 +4,12 @@ function calcTip () {
     var subTotalV=document.getElementById("subtotal").value;
     var tipV=document.getElementById("tip").value;
     var result=subTotalV *tipV/100.0;
-    totalP.innerHTML=result;
+
+    let dollarUS = Intl.NumberFormat("en-US", {
+        style: "currency",
+        currency: "USD",
+        useGrouping: true,
+    });
+
+    totalP.innerHTML=dollarUS.format(result);
 }
