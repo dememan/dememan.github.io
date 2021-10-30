@@ -19,3 +19,9 @@ div {
     font-weight: bold;
     font-size: small;
 }
+
+#total {
+    background-color: #1c62ab;
+    width: fit-content;
+    color: white;
+}
