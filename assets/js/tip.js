@@ -1,9 +1,10 @@
-function calcTip () {
+function calcTip() {
 
-    var totalP=document.getElementById("total");
-    var subTotalV=document.getElementById("subtotal").value;
-    var tipV=document.getElementById("tip").value;
-    var result=subTotalV *tipV/100.0;
+    var totalP = document.getElementById("total");
+    var subTotalV = document.getElementById("subtotal").value;
+    var tipPerc = document.getElementById("tip").value;
+    var tip = subTotalV * tipPerc / 100.0;
+    var total = parseFloat(subTotalV) + parseFloat(tip);
 
     let dollarUS = Intl.NumberFormat("en-US", {
         style: "currency",
@@ -11,5 +12,6 @@ function calcTip () {
         useGrouping: true,
     });
 
-    totalP.innerHTML=dollarUS.format(result);
+    totalP.innerHTML = dollarUS.format(total);
+    document.getElementById("tipv").innerHTML = dollarUS.format(tip);
 }
