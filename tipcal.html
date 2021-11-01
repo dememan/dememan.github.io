@@ -26,11 +26,11 @@
     </h1>
 
     <div>
-        <label><input id="subtotal" type="text" /> $ Subtotal</label>
+        <label><input id="subtotal" type="text" oninput="calcTip();" /> $ Subtotal</label>
     </div>
 
     <div>
-        <label><input id="tip" type="text" /> % Tip</label>
+        <label><input id="tip" type="text" oninput="calcTip();" /> % Tip <span id="tipv">($0.00)</span></label>
     </div>
 
     <div>
