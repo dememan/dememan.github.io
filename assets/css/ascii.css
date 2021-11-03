@@ -1,0 +1,42 @@
+body {
+    background-color: #CCCCFF;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.header {
+
+    font-size: 32pt;
+    text-align: center;
+    margin: 0px;
+}
+
+#txt {
+    width: 90%;
+    align-self: center;
+    height: 400px;
+    font-size: 12pt;
+    font-family: serif;
+    margin-left: 5%;
+}
+
+.controls {
+    margin: auto;
+    width: 50%;
+}
+
+.controls fieldset {
+    display: inline-block;
+    border: 5px solid black;
+
+}
+
+.controls fieldset {
+    display: inline-block;
+}
+
+.validators {
+    float: right;
+    width: 7%;
+}
