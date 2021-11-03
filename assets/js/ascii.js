@@ -40,11 +40,6 @@ function animateCaller() {
 
 }
 
-function animate() {
-
-
-}
-
 function start() {
     document.getElementById("stop").disabled = false;
     document.getElementById("start").disabled = true;
