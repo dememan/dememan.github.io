@@ -9,33 +9,41 @@
 </head>
 
 <body>
-    <h1>jquery Quiz 01 Solution </h1>
+    <h3 style="text-align: center; color: cornflowerblue;font-weight: bold;">JQuery Quiz 01 Solution </h3>
+    <hr>
     <ol>
         <li>
-            <p>
-                <pre>
-                A jQuery function is a function provided by jQuery library which lets us select elements from the html page
-                using CSS selector.
+            <pre>
+A jQuery function is a function provided by jQuery library which lets us select elements from the html page
+using CSS selector.
+              
                 For example:
                  jQuery('div') or $('div') ->selects all div tag elements from the html page.
                  Custom JQuery Function can also be created.
-                When we select elements using jQuery function a jQuery Object wrapping all the elements that mach the
-                selector will be returned.
-                For instance, writing:Selecting all <h1> tags. 
+             
+When we select elements using jQuery function a jQuery Object wrapping all the elements that mach the
+selector will be returned.
+              
+                For instance, writing:Selecting all <code>h1</code> tags. 
                     var headings = $("h1");
-                    headings is now a jQuery Object (element) containing all the <h1> tags already on the page.
-              Alternatively, because the jQuery object is "array-like," it supports array subscripting via brackets:
-                 Selecting only the first <h1> element on the page (alternate approach).                 
-                         var firstHeadingElem = $( "h1" )[ 0 ];
+                    headings is now a jQuery Object (element) containing all the <code>h1</code> tags already on the page.
+              
+Alternatively, because the jQuery object is "array-like," it supports array subscripting via brackets:
+Selecting only the first <code>h1</code> element on the page (alternate approach).                 
+                       
+                 var firstHeadingElem = $( "h1" )[ 0 ];
 
 </pre>
-            </p>
         </li>
         <li>
-            $('div h1').css( "background-color", "red" );
+            <code>
+                $('div h1').css( "background-color", "red" );
+            </code>
         </li>
         <li>
-            $("p").append("Yes!");
+            <code>
+                $("p").append("Yes!");
+            </code>
         </li>
 </body>
 
