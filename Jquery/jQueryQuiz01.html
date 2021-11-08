@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery Quiz 01</title>
+</head>
+
+<body>
+    <h1>jquery Quiz 01 Solution </h1>
+    <ol>
+        <li>
+            <p>
+                <pre>
+                A jQuery function is a function provided by jQuery library which lets us select elements from the html page
+                using CSS selector.
+                For example:
+                 jQuery('div') or $('div') ->selects all div tag elements from the html page.
+                 Custom JQuery Function can also be created.
+                When we select elements using jQuery function a jQuery Object wrapping all the elements that mach the
+                selector will be returned.
+                For instance, writing:Selecting all <h1> tags. 
+                    var headings = $("h1");
+                    headings is now a jQuery Object (element) containing all the <h1> tags already on the page.
+              Alternatively, because the jQuery object is "array-like," it supports array subscripting via brackets:
+                 Selecting only the first <h1> element on the page (alternate approach).                 
+                         var firstHeadingElem = $( "h1" )[ 0 ];
+
+</pre>
+            </p>
+        </li>
+        <li>
+            $('div h1').css( "background-color", "red" );
+        </li>
+        <li>
+            $("p").append("Yes!");
+        </li>
+</body>
+
+</html>
