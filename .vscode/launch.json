@@ -7,9 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "name": "Open ascii.html",
+            "file": "d:\\MIU MSCS\\My courses\\Nov - 2011 -WAP\\Workspace\\W1D3\\dememan.github.io\\ascii.html"
         }
     ]
 }
