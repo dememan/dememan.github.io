@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery Quiz III</title>
+</head>
+
+<body>
+    <h3 style="text-align: center; color: cornflowerblue;font-weight: bold;">JQuery Quiz III Solution </h3>
+    <hr>
+    <ol>
+        <li>
+            <pre>
+                $(function () {
+                    // $("p:last").html($("p:first").text());  
+                    //or
+                    var d = $("p").first().text();
+                    $("p").last().html(d);
+                });
+            </pre>
+        </li>
+        <li>
+            <pre>
+                $(function() {
+                    $("ul").eq(1).children().css("background-color","red") 
+                    });              
+            </pre>
+        </li>
+        <li>
+            <pre>
+            $(function () {
+
+                $(".third-item").prev().css("background-color", "blue");
+
+            });
+                
+            </pre>
+        </li>
+        <li>
+            <pre>
+            $(function () {
+
+                $(".turkey").replaceWith('&lt;li class='mashed-potatoes'>mashed potatoes &lt;/li>'');
+
+            });
+                
+            </pre>
+        </li>
+        <li>
+            <pre>
+                $("span").parent().parent().css("color", "green");
+                
+            </pre>
+        </li>
+
+</body>
+
+</html>

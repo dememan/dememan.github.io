@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery Quiz II</title>
+</head>
+
+<body>
+    <h3 style="text-align: center; color: cornflowerblue;font-weight: bold;">JQuery Quiz II Solution </h3>
+    <hr>
+    <ol>
+        <li>
+            <pre>
+                The each() Method in jQuery is used to specify the function to run for each matched element.
+
+                Syntax:
+                
+                $(selector).each(function(index, element))
+                Parameters: This method accepts single parameter function(index, element) which is mandatory. It is used to run for each matched element. 
+                It contains two parameters. They are optional. If we use them they do have the following meaning:
+                
+                index: It holds the index position of selector element.
+                element: It holds the current element.       
+                
+                So for the javascript snippet given below the index as well as the element params are not consumed. So,no change will be expected 
+                by introducing either of the parameters:
+
+                $("li").each(function(index, element) {
+                    $(this).css("color", "yellow"); 
+                    });
+                    
+                    All the three code fragments are the same !
+            </pre>
+        </li>
+        <li>
+            <pre>
+
+            $(function () {
+                        $("div ul").css("color", "blue")
+            });               
+            </pre>
+        </li>
+        <li>
+            <pre>
+            $(function () {
+
+                $("body").append('&lt;div>&lt;h1>JQuery Core&lt;/h1>&lt;/div>');
+
+            });
+                
+            </pre>
+        </li>
+</body>
+
+</html>
