@@ -4,23 +4,24 @@ $(function () {
     let Empty_Space_X = 3;
     let Empty_Space_Y = 3;
     init();
-    $("#shufflebutton").on('click', shuffle);
+    $("#shufflebutton").on("click", shuffle);
     //initialize and create the puzzle peices elements
     function init() {
 
         //remove the available  divs under the puzzlearea
         $("#puzzlearea div").remove();
 
-        var num = 1;
-        for (var i = 0; i < rows_columns; i++) {
-            for (var j = 0; j < rows_columns; j++) {
+        let num = 1;
+        for (let i = 0; i < rows_columns; i++) {
+            for (let j = 0; j < rows_columns; j++) {
 
                 let content = num++;
                 var tile = document.createElement("div");
                 tile.classList.add("puzzlepiece");
                 tile.style.left = 100 * j + "px";
                 tile.style.top = 100 * i + "px";
-                tile.style.backgroundPosition = (0 - 100 * j) + "px" + " " + (0 - 100 * i) + "px";
+                tile.style.backgroundPosition = (0 - 100 * j) + "px" +
+                    " " + (0 - 100 * i) + "px";
                 tile.setAttribute("id", "peice_" + j + "_" + i);
                 tile.innerHTML = content;
                 tile.onmouseover = highlight;
@@ -42,7 +43,8 @@ $(function () {
             this.classList.add("movablepiece");
         }
     }
-    // checking weather the next move is empty space 
+
+    // checking if the next move is empty space 
     function validMove(tile) {
         var neighbors = getNeighbors();
         if (neighbors.indexOf(tile.getAttribute("id")) != -1) {
