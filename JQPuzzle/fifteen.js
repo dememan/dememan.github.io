@@ -85,7 +85,7 @@ $(function () {
         }
     }
 
-    // Checks peice around selected tile to see if they're empty 
+    //    Checks peice around selected tile to see if they're empty 
     function getNeighbors() {
         var up = "peice_" + Empty_Space_X + "_" + (Empty_Space_Y - 1);
         var down = "peice_" + Empty_Space_X + "_" + (Empty_Space_Y + 1);
