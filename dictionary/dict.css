@@ -1,0 +1,44 @@
+body {
+    color: #a7f4ee;
+    background-color: #0b404e;
+    font-size: larger;
+}
+.header {
+    color: #a7f4ee;
+    background-color: #020044;
+    padding: 10px 10px;
+    margin: -10px -10px 3px -8px;
+}
+.searchbar {
+    padding: 30px;
+    margin: auto;
+    margin-left: -10px;
+    font-size: larger;
+    background-color: #506d74;
+}
+.searchbar label {
+    font-size: xx-large;
+}
+.searchbar input {
+    width: 110px;
+    height: auto;
+    font-size: larger;
+    color: #0b404e;
+    border: #a7f4ee solid 2px;
+    border-radius: 10px;
+}
+.searchbar input[type='text'] {
+    width: 200px;
+}
+ol {
+    counter-reset: item;
+    list-style-type: none;
+}
+li {
+    display: block;
+    padding-bottom: 15px;
+}
+li:before {
+    content: counter(item) "";
+    counter-increment: item
+}
